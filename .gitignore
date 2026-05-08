@@ -1,0 +1,68 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# cache
+.cache/
+.turbo/
+
+# testing
+coverage/
+
+# temporary files
+tmp/
+temp/
+
+# uploads
+uploads/
+
+# misc
+*.pem
+*.log
+
+# package manager lock files
+# keep ONLY the one you use
+
+# npm
+# package-lock.json
+
+# yarn
+# yarn.lock
+
+# pnpm
+# pnpm-lock.yaml
