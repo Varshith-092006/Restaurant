@@ -111,7 +111,7 @@ export default function Navbar() {
             animate={{ opacity: 1, clipPath: 'inset(0 0 0% 0)' }}
             exit={{ opacity: 0, clipPath: 'inset(0 0 100% 0)' }}
             transition={{ duration: 0.6, ease: [0.77, 0, 0.175, 1] }}
-            className="fixed inset-0 z-40 bg-obsidian/98 flex flex-col justify-center items-center"
+            className="fixed inset-0 z-40 bg-obsidian/98 backdrop-blur-xl flex flex-col justify-center items-center"
           >
             <div className="flex flex-col items-center gap-8">
               {navLinks.map((link, i) => (
